@@ -13,15 +13,22 @@ logo_state / title_state / stage1_state / stage2_state
 ## 각 GameState별 다음항목 
 1. 한줄 설명   
 logo_state : 로고 이미지 출력, 일정시간 후 title로 자동이동   
-title_state : 타이틀 이미지 출력, space 키 입력을 통해 stage1_state 이동   
+title_state : 타이틀 이미지 출력, (숫자 키패드 1, 2) 입력을 통해 stage1_state or stage2_state로 이동   
 stage1_state : stage1에서 출력할 장애물, 코인, 캐릭터, 맵(지면) 등을 출력   
 stage2_state : 동일하지만 stage2의 요소로 변경
 2. 화면에 표시할 객체 목록   
 logo_state : 로고 이미지   
-title_state : 타이틀 이미지 출력   
+title_state : 타이틀 이미지 출력, stage 선택 문구   
+pause_state : 게임 플레이 도중 멈추는 경우 pause문구가 적혀있는 이미지 출력, 현재까지 버틴 시간 출력   
+esc 입력받을 경우 기존 stage_state로 이동
 stage1_state : stage1의 캐릭터, 장애물, 코인, 맵(지면) 등을 출력   
-stage2_state : stage1의 객체와 동일하나 2의 버전으로   
+stage2_state : stage1의 객체와 동일하나 2의 버전으로
 3. 처리할 키/마우스 이벤트   
+logo_state : 일정 시간 후 자동으로 title_state로 이동한다. 프로그램의 x창 및 키보드 ESC 버튼을 입력받으면 프로그램 종료.   
+title_state : x창 마우스클릭, 키보드 ESC 입력받을시 프로그램 종료 / 숫자 1 입력 시 stage1_state, 2 입력 시 stage2_state 호출   
+pause_state : 키보드 esc 입력받을 시 기존 스테이지로 이동
+stage1_state : stage1에서 출력할 장애물, 코인, 캐릭터, 맵(지면) 등을 출력   
+stage2_state : 동일하지만 stage2의 요소로 변경
 
 4. 다른 state로 이동한다면 , 각 이동에 대한 조건 및 방법 (다이어그램 형식이면 더 좋다)
 ## 필요한 기술
