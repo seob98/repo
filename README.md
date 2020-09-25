@@ -10,7 +10,7 @@
 장애물 여러가지 구현이 완료되면 코인을 구현하고, 획득하는 코인 수를 화면 위에 or 게임이 끝나고 나오는 gameover_state에 표시한다.
 ## GameState(scene)의 수 및 각각의 이름
 logo_state / title_state / stage1_state / stage2_state
-### 각 GameState별 다음항목 
+## 각 GameState별 다음항목 
 1. 한줄 설명   
 logo_state : 로고 이미지 출력, 일정시간 후 title로 자동이동   
 title_state : 타이틀 이미지 출력, space 키 입력을 통해 stage1_state 이동   
@@ -24,7 +24,7 @@ stage2_state : stage1의 객체와 동일하나 2의 버전으로
 3. 처리할 키/마우스 이벤트   
 
 4. 다른 state로 이동한다면 , 각 이동에 대한 조건 및 방법 (다이어그램 형식이면 더 좋다)
-### 필요한 기술
+## 필요한 기술
 1. 다른 과목에서 배운 기술
 2. 이 과목에서 배울것으로 기대되는 기술
 3. 다루지 않을 것 같아서 수업에서 다루어 달라고 요청할 기술
