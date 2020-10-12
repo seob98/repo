@@ -59,4 +59,4 @@ C++의 class
 ![table1](./image/table2.png)
 
 ## 게임 스테이트 비주얼
-![table1](./image/stateTable.png)
+![table1](./image/stateTable2.png)
