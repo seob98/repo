@@ -120,4 +120,7 @@ x/y += (dx/dy * obj의 frame속도 * obj의 self.speed)
 친구 2  
 소리 크기가 너무 작은 거 같다. 난이도 조절이 마음에 든다. 호승심을 적당하게 자극함. 장르와 걸맞게 긴 가로축을 쓴 것이  
 마음에 들고 탄막 게임답게 플레이 오브젝트 하나에만 집중할 수 있었다. 실제 메이플 보스 패턴과 상당히 비슷해 연습할수도 있을듯? 10점.
-![interview1](./image/interview2.png)
+![interview1](./image/interview2.png)  
+
+## 주변인 플레이 영상  
+https://www.youtube.com/watch?v=ZgUWKm2p7jY&feature=youtu.be
